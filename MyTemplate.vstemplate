@@ -1,0 +1,45 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Vishak_Windows7_App</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Vishak_Windows7_App</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Vishak_Windows7_App.csproj" File="Vishak_Windows7_App.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ApplicationIcon.png">ApplicationIcon.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Background.png">Background.png</ProjectItem>
+      <Folder Name="HelperClasses" TargetFolderName="HelperClasses">
+        <ProjectItem ReplaceParameters="true" TargetFileName="FBUris.cs">FBUris.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="login.xaml">login.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="login.xaml.cs">login.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="loginbutton.png">loginbutton.png</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="logout.png">logout.png</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="logout.xaml">logout.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="logout.xaml.cs">logout.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppManifest.xml">AppManifest.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WMAppManifest.xml">WMAppManifest.xml</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="publishStory.xaml">publishStory.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="publishStory.xaml.cs">publishStory.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreenImage.jpg">SplashScreenImage.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VishakW7App.xaml">VishakW7App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VishakW7App.xaml.cs">VishakW7App.xaml.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
